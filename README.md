@@ -1,6 +1,5 @@
-Detect objects in videos using YOLOv3
 
-## Getting Started
+## Detect objects in videos using YOLOv3
 
 This repo shows how to easily apply YOLOv3 to detect objects in videos.
 
