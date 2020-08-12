@@ -6,8 +6,7 @@ This repo shows how to easily apply YOLOv3 to detect objects in videos.
 
 ### Installing
 
-[YOLOv3](https://github.com/ayooshkathuria/pytorch-yolo-v3) is required. Users should download model's config files, weights and class names (coco names). 
-They should be moved to "model" folder.
+[YOLOv3](https://github.com/ayooshkathuria/pytorch-yolo-v3) is required. Users should download model's weights [file](https://pjreddie.com/media/files/yolov3.weights). It should be moved to "model" folder.
 
 Also, OpenCV is required. 
 
