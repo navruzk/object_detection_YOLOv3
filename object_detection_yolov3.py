@@ -1,10 +1,11 @@
 import numpy as np
 import cv2
 
-threshold = 0.4  # Confidence threshold
+threshold = 0.4
 
 with open("model/YOLOv3/coco.names") as file:
     classes = file.read().strip().split("\n")
+    
 net = cv2.dnn.readNetFromDarknet("model/YOLOv3/yolov3.cfg", "model/YOLOv3/yolov3.weights")
 
 cap = cv2.VideoCapture("video/video.mp4")
