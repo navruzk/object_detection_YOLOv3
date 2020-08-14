@@ -22,3 +22,6 @@ python object_detection_yolov3.py
 ```
 
 It displays the video and detected objects.
+
+
+*YOLOv3 training on custom data will be uploaded soon*
